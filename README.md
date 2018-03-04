@@ -1,11 +1,14 @@
 # mediumship
+
+![](https://img.shields.io/chrome-web-store/v/bmiaaebehjjikccjanedpidhmpcbhnfg.svg) ![](https://img.shields.io/chrome-web-store/rating/bmiaaebehjjikccjanedpidhmpcbhnfg.svg?maxAge=2592000) ![](https://img.shields.io/chrome-web-store/users/bmiaaebehjjikccjanedpidhmpcbhnfg.svg?maxAge=2592000)
+
 Try Medium with membership-features!
+
+Get Mediumship here: https://chrome.google.com/webstore/detail/mediumship/bmiaaebehjjikccjanedpidhmpcbhnfg
 
 On any medium.com/* page, click on the page action button to read the full story.
 
 Inspired by https://medium.com/bugbountywriteup/listening-to-any-members-only-audio-version-of-the-story-in-medium-bf2dc2abc8d7 and https://github.com/swapagarwal/medium-play
-
-Get Mediumship here: https://chrome.google.com/webstore/detail/mediumship/bmiaaebehjjikccjanedpidhmpcbhnfg
 
 Demo: ![](demo.gif)
 
