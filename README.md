@@ -1,6 +1,6 @@
 # mediumship
 
-![](https://img.shields.io/chrome-web-store/v/bmiaaebehjjikccjanedpidhmpcbhnfg.svg) ![](https://img.shields.io/chrome-web-store/rating/bmiaaebehjjikccjanedpidhmpcbhnfg.svg?maxAge=2592000) ![](https://img.shields.io/chrome-web-store/users/bmiaaebehjjikccjanedpidhmpcbhnfg.svg?maxAge=2592000)
+![](https://img.shields.io/chrome-web-store/v/bmiaaebehjjikccjanedpidhmpcbhnfg.svg) ![](https://img.shields.io/chrome-web-store/rating/bmiaaebehjjikccjanedpidhmpcbhnfg.svg) ![](https://img.shields.io/chrome-web-store/users/bmiaaebehjjikccjanedpidhmpcbhnfg.svg)
 
 Try Medium with membership-features!
 
