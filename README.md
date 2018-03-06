@@ -13,7 +13,8 @@ Inspired by https://medium.com/bugbountywriteup/listening-to-any-members-only-au
 Demo: ![](demo.gif)
 
 Screenshots:
-![](mediumship-1.png)
-![](mediumship-2.png)
-![](mediumship-3.png)
-![](mediumship-4.png)
+
+Before                | After
+:--------------------:|:-------------------:
+![](mediumship-1.png) | ![](mediumship-2.png)
+![](mediumship-3.png) | ![](mediumship-4.png)
