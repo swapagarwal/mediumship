@@ -1,8 +1,12 @@
 # mediumship
 
-[![](https://img.shields.io/chrome-web-store/v/bmiaaebehjjikccjanedpidhmpcbhnfg.svg)](https://chrome.google.com/webstore/detail/mediumship/bmiaaebehjjikccjanedpidhmpcbhnfg) [![](https://img.shields.io/chrome-web-store/rating/bmiaaebehjjikccjanedpidhmpcbhnfg.svg)](https://chrome.google.com/webstore/detail/mediumship/bmiaaebehjjikccjanedpidhmpcbhnfg) [![](https://img.shields.io/chrome-web-store/users/bmiaaebehjjikccjanedpidhmpcbhnfg.svg)](https://chrome.google.com/webstore/detail/mediumship/bmiaaebehjjikccjanedpidhmpcbhnfg)
+[![](https://img.shields.io/chrome-web-store/v/bmiaaebehjjikccjanedpidhmpcbhnfg.svg)](https://chrome.google.com/webstore/detail/mediumship/bmiaaebehjjikccjanedpidhmpcbhnfg)
+[![](https://img.shields.io/chrome-web-store/rating/bmiaaebehjjikccjanedpidhmpcbhnfg.svg)](https://chrome.google.com/webstore/detail/mediumship/bmiaaebehjjikccjanedpidhmpcbhnfg)
+[![](https://img.shields.io/chrome-web-store/users/bmiaaebehjjikccjanedpidhmpcbhnfg.svg)](https://chrome.google.com/webstore/detail/mediumship/bmiaaebehjjikccjanedpidhmpcbhnfg)
 
-[![](https://img.shields.io/amo/v/mediumship.svg)](https://addons.mozilla.org/en-US/firefox/addon/mediumship/) [![](https://img.shields.io/amo/rating/mediumship.svg)](https://addons.mozilla.org/en-US/firefox/addon/mediumship/) [![](https://img.shields.io/amo/users/mediumship.svg)](https://addons.mozilla.org/en-US/firefox/addon/mediumship/)
+[![](https://img.shields.io/amo/v/mediumship.svg)](https://addons.mozilla.org/en-US/firefox/addon/mediumship/)
+[![](https://img.shields.io/amo/rating/mediumship.svg)](https://addons.mozilla.org/en-US/firefox/addon/mediumship/)
+[![](https://img.shields.io/amo/users/mediumship.svg)](https://addons.mozilla.org/en-US/firefox/addon/mediumship/)
 
 Try Medium with membership-features!
 
