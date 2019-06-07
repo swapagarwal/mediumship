@@ -10,6 +10,8 @@
 
 Try Medium with membership-features!
 
+**If you are using Firefox, must allow this extension in incognito mode!**
+
 Get Mediumship on Google Chrome: https://chrome.google.com/webstore/detail/mediumship/bmiaaebehjjikccjanedpidhmpcbhnfg
 
 Get Mediumship on Mozilla Firefox: https://addons.mozilla.org/en-US/firefox/addon/mediumship/
