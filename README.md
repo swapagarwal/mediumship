@@ -19,10 +19,11 @@ Get Mediumship on Mozilla Firefox: https://addons.mozilla.org/en-US/firefox/addo
 
 📚 Read all Medium stories for free.
 
-Demo: ![](demo.gif)
+Demo:  
+![](demo.gif)
 
-Before:
+Before:  
 ![](mediumship-1.png)
 
-After:
+After:  
 ![](mediumship-2.png)
