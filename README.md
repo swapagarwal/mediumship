@@ -25,11 +25,11 @@ Get Mediumship on Mozilla Firefox (Works both on desktop & mobile browsers!): ht
 
 ![](demo.gif)
 
-Before:
-![](mediumship-1.png)
+Screenshots:
 
-After:
-![](mediumship-2.png)
+Before                | After
+:--------------------:|:-------------------:
+![](mediumship-1.png) | ![](mediumship-2.png)
 
 ## Disclaimer
 
