@@ -23,6 +23,7 @@ Demo:
 ![](demo.gif)
 
 Screenshots:
+
 Before                | After
 :--------------------:|:-------------------:
 ![](mediumship-1.png) | ![](mediumship-2.png)
