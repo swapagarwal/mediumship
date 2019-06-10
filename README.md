@@ -22,8 +22,7 @@ Get Mediumship on Mozilla Firefox: https://addons.mozilla.org/en-US/firefox/addo
 Demo:  
 ![](demo.gif)
 
-Before:  
-![](mediumship-1.png)
-
-After:  
-![](mediumship-2.png)
+Screenshots:
+Before                | After
+:--------------------:|:-------------------:
+![](mediumship-1.png) | ![](mediumship-2.png)
