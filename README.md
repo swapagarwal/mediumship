@@ -12,6 +12,8 @@ Try Medium with membership-features!
 
 📚 Read all Medium stories for free.
 
+<a href="https://www.producthunt.com/posts/mediumship?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-mediumship" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=158018&theme=light" alt="mediumship - Read all Medium stories for free. | Product Hunt Embed" style="width: 250px; height: 54px;" width="250px" height="54px" /></a>
+
 ## Download links (for Chrome and Firefox)
 
 Get Mediumship on Google Chrome: https://chrome.google.com/webstore/detail/mediumship/bmiaaebehjjikccjanedpidhmpcbhnfg
@@ -25,7 +27,7 @@ Get Mediumship on Mozilla Firefox (Works both on desktop & mobile browsers!): ht
 
 ![](demo.gif)
 
-Screenshots:
+## Screenshots
 
 Before                | After
 :--------------------:|:-------------------:
