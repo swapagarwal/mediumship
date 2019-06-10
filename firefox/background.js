@@ -1,55 +1,52 @@
-function changeButtonState(tabInfo) {
-  if (tabInfo.status==='complete' && tabInfo.url.startsWith("https://medium.com/")) {
-    browser.browserAction.enable();
-  } else {
-    browser.browserAction.disable();
-  }
-}
-browser.tabs.onUpdated.addListener(function(tabId, changeInfo, tabInfo) {
-  changeButtonState(tabInfo);
-});
-browser.tabs.onActivated.addListener(function(activeInfo) {
-  browser.tabs.get(activeInfo.tabId).then(function(tabInfo) {
-    changeButtonState(tabInfo);});
-});
-browser.runtime.onInstalled.addListener(function(details) {
-  browser.tabs.query({
-    active: true,
-    lastFocusedWindow: true
-  }).then(function(array_of_tabs) {
-    changeButtonState(array_of_tabs[0]);});
-});
-browser.windows.onFocusChanged.addListener(function(windowId) {
-  browser.tabs.query({
-    active: true,
-    lastFocusedWindow: true
-  }).then(function(array_of_tabs) {
-    changeButtonState(array_of_tabs[0]);});
-});
-browser.browserAction.onClicked.addListener(function(tab) {
-  browser.tabs.query({
-    active: true,
-    lastFocusedWindow: true
-  }).then(function(array_of_tabs) {
-    var tab = array_of_tabs[0];
-    var url = tab.url;
-    var id = url.split("-").pop();
-    if (undefined !== id) {
-      var request = new XMLHttpRequest();
-      request.open("GET", "https://medium.com/p/" + id + "/notes", true);
-      request.onload = function() {
-        if (200 === request.status) {
-          var resp = request.responseText;
-          var match = resp.match(/\"webCanonicalUrl\":\"([^"]+)\"/);
-          if (null !== match && null !== match[1]) {
-            var webCanonicalUrl = match[1];
-            browser.tabs.create({"url": webCanonicalUrl});
-          } else {
-            browser.windows.create({"url": url, "incognito": true});
-          }
-        }
-      };
-      request.send();
+var app = {};
+// Modify the referer to bypass Medium's paywall.
+app.modifyHeaders = function(details) {
+  // The link is pointed to `medium.com` redirected through a twitter url.
+  var newRef = "https://t.co/JV5396gd2O";
+  var gotRef = false;
+  for (var n in details.requestHeaders) {
+    gotRef = details.requestHeaders[n].name.toLowerCase() == "referer";
+    if (gotRef) {
+      details.requestHeaders[n].value = newRef;
+      break;
     }
+  }
+  if (!gotRef) {
+    details.requestHeaders.push({ name: "Referer", value: newRef });
+  }
+  return { requestHeaders: details.requestHeaders };
+}
+// Modify referer and unregister our one-use listener.
+app.modifyHeadersAndRemoveListener = function(details) {
+  let ret = app.modifyHeaders(details);
+  // Unregister our one-use listener.
+  browser.webRequest.onBeforeSendHeaders.removeListener(app.modifyHeadersAndRemoveListener);
+  return ret;
+}
+// Background listener for all medium domain tabs.
+browser.webRequest.onBeforeSendHeaders.addListener(app.modifyHeaders, {
+  urls: ["*://*.medium.com/*"]
+}, [
+  "requestHeaders",
+  "blocking"
+]);
+// Extension button click for non-medium domain tabs.
+browser.browserAction.onClicked.addListener(function (tab) {
+  browser.tabs.query({
+    active: true,
+    lastFocusedWindow: true
+  }).then(function (tabs) {
+    var activeTab = tabs[0];
+    var url = tab.url;
+    // Register our one-use listener for our next request.
+    browser.webRequest.onBeforeSendHeaders.addListener(app.modifyHeadersAndRemoveListener, {
+      urls: [url]
+    }, [
+      "requestHeaders",
+      "blocking"
+    ]);
+    // Open a new tab with same url, our one-use listener should help us modify the headers.
+    // Must use the one-use listener to modify headers, since `browser.tabs.create` doesn't allow custom headers.
+    browser.tabs.create({ "url": url });
   });
 });
