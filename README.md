@@ -12,7 +12,7 @@ Try Medium with membership-features!
 
 📚 Read all Medium stories for free.
 
-<a href="https://www.producthunt.com/posts/mediumship?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-mediumship" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=158018&theme=light" alt="mediumship - Read all Medium stories for free. | Product Hunt Embed" style="width: 250px; height: 54px;" width="250px" height="54px" /></a>
+<a href="https://www.producthunt.com/posts/mediumship?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-mediumship" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=158018&theme=light&period=daily" alt="mediumship - Read all Medium stories for free. | Product Hunt Embed" style="width: 250px; height: 54px;" width="250px" height="54px" /></a>
 
 ## Download links (for Chrome and Firefox)
 
