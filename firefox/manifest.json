@@ -1,6 +1,6 @@
 {
     "name": "Mediumship",
-    "version": "2.1",
+    "version": "2.2",
     "description": "Try Medium with membership-features!",
     "background": {
         "scripts": [
@@ -17,8 +17,7 @@
     "permissions": [
         "webRequest",
         "webRequestBlocking",
-        "activeTab",
-        "<all_urls>"
+        "activeTab"
     ],
 
     "icons": {
