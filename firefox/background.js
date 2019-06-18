@@ -1,8 +1,19 @@
+// Looks like medium is blocking requests the with specific Referrer header value: https://t.co/JV5396gd2O
+// In order to bypass this, generate "random" header values
+// Pick a random number between 1 and 2
+// Convert to Base 36 (so it should be alphanumeric)
+// Get first 10 characters after decimal
+function generateReferrer() {
+  var linkId = (1 + Math.random()).toString(36).substring(2, 12);
+  return `https://t.co/${linkId}`;
+}}
+
 var app = {};
+
 // Modify the referer to bypass Medium's paywall.
 app.modifyHeaders = function(details) {
   // The link is pointed to `medium.com` redirected through a twitter url.
-  var newRef = "https://t.co/JV5396gd2O";
+  var newRef = generateReferrer();
   var gotRef = false;
   for (var n in details.requestHeaders) {
     gotRef = details.requestHeaders[n].name.toLowerCase() == "referer";
