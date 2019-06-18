@@ -8,11 +8,13 @@
 [![](https://img.shields.io/amo/rating/mediumship.svg)](https://addons.mozilla.org/en-US/firefox/addon/mediumship/)
 [![](https://img.shields.io/amo/users/mediumship.svg)](https://addons.mozilla.org/en-US/firefox/addon/mediumship/)
 
+[**USE IT AT YOUR OWN RISK!**](#disclaimer)
+
 Try Medium with membership-features!
 
 📚 Read all Medium stories for free.
 
-<a href="https://www.producthunt.com/posts/mediumship?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-mediumship" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=158018&theme=light&period=daily" alt="mediumship - Read all Medium stories for free. | Product Hunt Embed" style="width: 250px; height: 54px;" width="250px" height="54px" /></a>
+Click on the page action button to read the full story.
 
 ## Download links (for Chrome and Firefox)
 
@@ -35,8 +37,14 @@ Before                | After
 
 ## Disclaimer
 
-This extension uses the technique mentioned [here](https://twitter.com/ev/status/1100899021621583872) to bypass the paywall.
+This is an extension that demonstrates the ability to modify HTTP request headers to twitter url. Use it at your own risk! The same result can be achieved by the following ways without the extension:
 
-We've emailed to Medium's security department about this issue, and the reply says that the method is intended.
+- Use another device
+- Use your browser's incognito mode
+- Paste a url on your twitter textbox, select it and right-click `go to link`
+
+This extension modifies the HTTP request header referrer as mentioned [here](https://twitter.com/ev/status/1100899021621583872).
+
+We've emailed to Medium's security department about this issue, and the reply says that the method is not a vulnerability.
 
 ![](email-reply.png)
