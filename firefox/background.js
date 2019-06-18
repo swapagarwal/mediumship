@@ -1,28 +1,25 @@
-// Looks like medium is blocking requests the with specific Referrer header value: https://t.co/JV5396gd2O
+var app = {};
+// Looks like the specific Referrer header value: https://t.co/JV5396gd2O is blocked
 // In order to bypass this, generate "random" header values
 // Pick a random number between 1 and 2
 // Convert to Base 36 (so it should be alphanumeric)
 // Get first 10 characters after decimal
-function generateReferrer() {
+app.generateReferrer = function() {
   var linkId = (1 + Math.random()).toString(36).substring(2, 12);
   return `https://t.co/${linkId}`;
-}}
-
-var app = {};
-
-// Modify the referer to bypass Medium's paywall.
+}
+// Modify the referer to twitter.
 app.modifyHeaders = function(details) {
-  // The link is pointed to `medium.com` redirected through a twitter url.
-  var newRef = generateReferrer();
-  var gotRef = false;
+  var newRef = app.generateReferrer();
+  var refExists = false;
   for (var n in details.requestHeaders) {
-    gotRef = details.requestHeaders[n].name.toLowerCase() == "referer";
-    if (gotRef) {
+    refExists = details.requestHeaders[n].name.toLowerCase() == "referer";
+    if (refExists) {
       details.requestHeaders[n].value = newRef;
       break;
     }
   }
-  if (!gotRef) {
+  if (!refExists) {
     details.requestHeaders.push({ name: "Referer", value: newRef });
   }
   return { requestHeaders: details.requestHeaders };
@@ -34,14 +31,14 @@ app.modifyHeadersAndRemoveListener = function(details) {
   browser.webRequest.onBeforeSendHeaders.removeListener(app.modifyHeadersAndRemoveListener);
   return ret;
 }
-// Background listener for all medium domain tabs.
-browser.webRequest.onBeforeSendHeaders.addListener(app.modifyHeaders, {
-  urls: ["*://*.medium.com/*"]
-}, [
-  "requestHeaders",
-  "blocking"
-]);
-// Extension button click for non-medium domain tabs.
+// Background listener for certain domain tabs. (You can modify this)
+// browser.webRequest.onBeforeSendHeaders.addListener(app.modifyHeaders, {
+//   urls: ["*://*/*"]
+// }, [
+//   "requestHeaders",
+//   "blocking"
+// ]);
+// Extension button click for non-listened domain tabs.
 browser.browserAction.onClicked.addListener(function (tab) {
   browser.tabs.query({
     active: true,

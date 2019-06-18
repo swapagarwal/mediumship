@@ -1,16 +1,26 @@
 {
     "name": "Mediumship",
-    "version": "2.0",
+    "version": "2.1",
     "description": "Try Medium with membership-features!",
     "background": {
         "scripts": [
             "background.js"
         ]
     },
+    "page_action": {
+        "default_icon": {
+            "16": "icon16.png",
+            "19": "icon19.png"
+        },
+        "default_title": "Read the full story!"
+    },
     "permissions": [
         "webRequest",
-        "*://*.medium.com/*",
-        "webRequestBlocking"
+        "webRequestBlocking",
+        "activeTab",
+        "declarativeContent",
+        "http://*/*",
+        "https://*/*"
     ],
     "icons": {
         "16": "icon16.png",
