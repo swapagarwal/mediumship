@@ -1,0 +1,16 @@
+{
+    "addons": {
+        "mediumship@swap": {
+            "updates": [
+                {
+                    "version": "2.1",
+                    "update_link": "https://raw.githubusercontent.com/swapagarwal/mediumship/master/firefox/web-ext-artifacts/addon-2.1.xpi"
+                },
+                {
+                    "version": "2.2",
+                    "update_link": "https://raw.githubusercontent.com/swapagarwal/mediumship/master/firefox/web-ext-artifacts/addon-2.2.xpi"
+                }
+            ]
+        }
+    }
+}

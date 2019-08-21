@@ -1,7 +1,7 @@
 {
     "name": "Mediumship",
-    "version": "2.1",
-    "description": "Try Medium with membership-features!",
+    "version": "2.2",
+    "description": "Read all Medium stories for free.",
     "background": {
         "scripts": [
             "background.js"
@@ -20,11 +20,16 @@
         "activeTab",
         "<all_urls>"
     ],
-
     "icons": {
         "16": "icon16.png",
         "48": "icon48.png",
         "128": "icon128.png"
     },
-    "manifest_version": 2
+    "manifest_version": 2,
+    "applications": {
+        "gecko": {
+            "id": "mediumship@swap",
+            "update_url": "https://raw.githubusercontent.com/swapagarwal/mediumship/master/firefox/web-ext-artifacts/updates.json"
+        }
+    }
 }
