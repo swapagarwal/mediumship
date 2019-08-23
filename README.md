@@ -4,7 +4,7 @@
 [![](https://img.shields.io/chrome-web-store/rating/bmiaaebehjjikccjanedpidhmpcbhnfg.svg)](https://chrome.google.com/webstore/detail/mediumship/bmiaaebehjjikccjanedpidhmpcbhnfg)
 [![](https://img.shields.io/chrome-web-store/users/bmiaaebehjjikccjanedpidhmpcbhnfg.svg)](https://chrome.google.com/webstore/detail/mediumship/bmiaaebehjjikccjanedpidhmpcbhnfg)
 
-[![](https://img.shields.io/badge/mozilla%20add--on-v2.2-informational)](https://github.com/swapagarwal/mediumship/blob/master/firefox/web-ext-artifacts/addon-2.2.xpi)
+[![](https://img.shields.io/badge/mozilla%20add--on-v2.2-informational)](https://github.com/swapagarwal/mediumship/blob/master/firefox/web-ext-artifacts/addon-2.2.xpi?raw=true)
 
 [**USE IT AT YOUR OWN RISK!**](#disclaimer)
 
@@ -18,7 +18,7 @@ Click on the page action button to read the full story.
 
 Get Mediumship on Google Chrome: https://chrome.google.com/webstore/detail/mediumship/bmiaaebehjjikccjanedpidhmpcbhnfg
 
-Get Mediumship on Mozilla Firefox (Works both on desktop & mobile browsers!): https://github.com/swapagarwal/mediumship/blob/master/firefox/web-ext-artifacts/addon-2.2.xpi
+Get Mediumship on Mozilla Firefox (Works both on desktop & mobile browsers!): https://github.com/swapagarwal/mediumship/blob/master/firefox/web-ext-artifacts/addon-2.2.xpi?raw=true
 
 <a href="https://www.buymeacoffee.com/swap" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 <a href="https://www.patreon.com/bePatron?u=7999565" target="_blank"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron!" height="41"></a>
