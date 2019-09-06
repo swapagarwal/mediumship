@@ -1,7 +1,7 @@
 {
     "name": "Mediumship",
-    "version": "2.1",
-    "description": "Try Medium with membership-features!",
+    "version": "2.2",
+    "description": "Read all Medium stories for free.",
     "background": {
         "scripts": [
             "background.js"
