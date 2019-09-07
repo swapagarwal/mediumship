@@ -15,7 +15,7 @@ Click on the page action button to read the full story.
 
 Get Mediumship on Google Chrome: https://github.com/swapagarwal/mediumship/archive/master.zip
 
-Get Mediumship on Mozilla Firefox (Works both on desktop & mobile browsers!): https://github.com/swapagarwal/mediumship/blob/master/firefox/web-ext-artifacts/addon-2.2.xpi?raw=true
+Get Mediumship on Mozilla Firefox (Works both on desktop & mobile browsers!) [here](https://github.com/swapagarwal/mediumship/blob/master/firefox/web-ext-artifacts/addon-2.2.xpi?raw=true). [(Installation instructions)](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Distribution_options/Sideloading_add-ons#Using_Install_Add-on_From_File)
 
 <a href="https://www.buymeacoffee.com/swap" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 <a href="https://www.patreon.com/bePatron?u=7999565" target="_blank"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron!" height="41"></a>
