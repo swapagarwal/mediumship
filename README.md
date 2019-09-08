@@ -13,7 +13,7 @@ Click on the page action button to read the full story.
 
 ## Download links (for Chrome and Firefox)
 
-Get Mediumship on Google Chrome: https://github.com/swapagarwal/mediumship/archive/master.zip
+Get Mediumship on Google Chrome [here](https://github.com/swapagarwal/mediumship/archive/master.zip). [(Installation instructions)](https://www.mattcutts.com/blog/how-to-install-a-chrome-extension-from-github/)
 
 Get Mediumship on Mozilla Firefox (Works both on desktop & mobile browsers!) [here](https://github.com/swapagarwal/mediumship/blob/master/firefox/web-ext-artifacts/addon-2.2.xpi?raw=true). [(Installation instructions)](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Distribution_options/Sideloading_add-ons#Using_Install_Add-on_From_File)
 
