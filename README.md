@@ -10,6 +10,7 @@ Try Medium with membership-features!
 📚 Read all Medium stories for free.
 
 Click on the page action button to read the full story.
+(You might have to sign out of Medium!)
 
 ## Download links (for Chrome and Firefox)
 
