@@ -11,6 +11,8 @@ Try Medium with membership-features!
 
 Click on the page action button to read the full story.
 
+#### NOTE: SIGN OUT OF THE MEDIUM ACCOUNT BEFORE CLICKING ON THE PAGE ACTION BUTTON
+
 ## Download links (for Chrome and Firefox)
 
 Get Mediumship on Google Chrome [here](https://github.com/swapagarwal/mediumship/archive/master.zip). [(Installation instructions)](https://www.mattcutts.com/blog/how-to-install-a-chrome-extension-from-github/)
