@@ -3,20 +3,21 @@
 [![](https://img.shields.io/badge/chrome%20web%20store-v2.2-informational)](https://github.com/swapagarwal/mediumship/archive/master.zip)
 [![](https://img.shields.io/badge/mozilla%20add--on-v2.2-informational)](https://github.com/swapagarwal/mediumship/blob/master/firefox/web-ext-artifacts/addon-2.2.xpi?raw=true)
 
-[**USE IT AT YOUR OWN RISK!**](#disclaimer)
+[**DISCLAIMER: USE IT AT YOUR OWN RISK!**](#disclaimer)
 
-Try Medium with membership-features!
+📚 Mediumship is a browser extension that lets you try Medium with membership-features, allowing you to read all Medium stories for free.
 
-📚 Read all Medium stories for free.
+## Installation
+
+Google Chrome: [Download](https://github.com/swapagarwal/mediumship/archive/master.zip), [Instructions](https://www.mattcutts.com/blog/how-to-install-a-chrome-extension-from-github/)
+
+Mozilla Firefox (works both on desktop & mobile browsers!): [Download](https://github.com/swapagarwal/mediumship/blob/master/firefox/web-ext-artifacts/addon-2.2.xpi?raw=true), [Instructions](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Distribution_options/Sideloading_add-ons#Using_Install_Add-on_From_File)
+
+## Usage
 
 Click on the page action button to read the full story.
-(You might have to sign out of Medium!)
 
-## Download links (for Chrome and Firefox)
-
-Get Mediumship on Google Chrome [here](https://github.com/swapagarwal/mediumship/archive/master.zip). [(Installation instructions)](https://www.mattcutts.com/blog/how-to-install-a-chrome-extension-from-github/)
-
-Get Mediumship on Mozilla Firefox (Works both on desktop & mobile browsers!) [here](https://github.com/swapagarwal/mediumship/blob/master/firefox/web-ext-artifacts/addon-2.2.xpi?raw=true). [(Installation instructions)](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Distribution_options/Sideloading_add-ons#Using_Install_Add-on_From_File)
+P.S. If it doesn't work, sign out of Medium and try again!
 
 <a href="https://www.buymeacoffee.com/swap" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 <a href="https://www.patreon.com/bePatron?u=7999565" target="_blank"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron!" height="41"></a>
