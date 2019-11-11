@@ -11,7 +11,7 @@
 
 Google Chrome: [Download](https://github.com/swapagarwal/mediumship/archive/master.zip), [Instructions](https://www.mattcutts.com/blog/how-to-install-a-chrome-extension-from-github/)
 
-Mozilla Firefox (works both on desktop & mobile browsers!): [Download](https://github.com/swapagarwal/mediumship/blob/master/firefox/web-ext-artifacts/addon-2.2.xpi?raw=true), [Instructions](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Distribution_options/Sideloading_add-ons#Using_Install_Add-on_From_File)
+Mozilla Firefox (works both on desktop & mobile browsers!): [Download](https://github.com/swapagarwal/mediumship/blob/master/firefox/web-ext-artifacts/addon-2.2.xpi?raw=true), [Instructions](https://extensionworkshop.com/documentation/publish/distribute-sideloading/#install-addon-from-file)
 
 ## Usage
 
