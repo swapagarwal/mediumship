@@ -1,26 +1,16 @@
 {
     "name": "Mediumship",
-    "version": "2.2",
+    "version": "2.3",
     "description": "Read all Medium stories for free.",
     "background": {
         "scripts": [
             "background.js"
         ]
     },
-    "page_action": {
-        "default_icon": {
-            "16": "icon16.png",
-            "19": "icon19.png"
-        },
-        "default_title": "Read the full story!"
-    },
     "permissions": [
         "webRequest",
         "webRequestBlocking",
-        "activeTab",
-        "declarativeContent",
-        "http://*/*",
-        "https://*/*"
+        "<all_urls>"
     ],
     "icons": {
         "16": "icon16.png",
