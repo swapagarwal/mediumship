@@ -1,6 +1,6 @@
 {
     "name": "Mediumship",
-    "version": "2.3",
+    "version": "2.3.1",
     "description": "Read all Medium stories for free.",
     "background": {
         "scripts": [

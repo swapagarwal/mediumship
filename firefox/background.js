@@ -37,7 +37,6 @@ browser.webRequest.onBeforeSendHeaders.addListener(
   },
   [
     'blocking',
-    'requestHeaders',
-    'extraHeaders'
+    'requestHeaders'
   ]
 );
