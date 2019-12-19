@@ -37,6 +37,8 @@ browser.webRequest.onBeforeSendHeaders.addListener(
       '*://psiloveyou.xyz/*',
       '*://uxplanet.org/*',
       '*://towardsdatascience.com/*',
+      '*://codeburst.io/*',
+      '*://*.gitconnected.com/*',
     ]
   },
   [
