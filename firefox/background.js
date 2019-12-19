@@ -32,7 +32,11 @@ browser.webRequest.onBeforeSendHeaders.addListener(
   app.modifyHeaders,
   {
     urls: [
-      '*://*.medium.com/*'
+      '*://*.medium.com/*',
+      '*://writingcooperative.com/*',
+      '*://psiloveyou.xyz/*',
+      '*://uxplanet.org/*',
+      '*://towardsdatascience.com/*',
     ]
   },
   [
