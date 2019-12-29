@@ -39,6 +39,9 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
       '*://towardsdatascience.com/*',
       '*://codeburst.io/*',
       '*://*.gitconnected.com/*',
+      '*://itnext.io/*',
+      '*://entrepreneurshandbook.co/*',
+      '*://arcdigital.media/*',
     ]
   },
   [

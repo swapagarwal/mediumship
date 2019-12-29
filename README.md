@@ -1,7 +1,7 @@
 # Mediumship
 
-[![](https://img.shields.io/badge/chrome%20web%20store-v2.5-informational)](https://github.com/swapagarwal/mediumship/archive/master.zip)
-[![](https://img.shields.io/badge/mozilla%20add--on-v2.5-informational)](https://github.com/swapagarwal/mediumship/blob/master/firefox/web-ext-artifacts/addon-2.5.xpi?raw=true)
+[![](https://img.shields.io/badge/chrome%20web%20store-v2.6-informational)](https://github.com/swapagarwal/mediumship/archive/master.zip)
+[![](https://img.shields.io/badge/mozilla%20add--on-v2.6-informational)](https://github.com/swapagarwal/mediumship/blob/master/firefox/web-ext-artifacts/addon-2.6.xpi?raw=true)
 
 [**DISCLAIMER: USE IT AT YOUR OWN RISK!**](#disclaimer)
 
@@ -11,7 +11,7 @@
 
 Google Chrome: [Download](https://github.com/swapagarwal/mediumship/archive/master.zip), [Instructions](https://www.mattcutts.com/blog/how-to-install-a-chrome-extension-from-github/)
 
-Mozilla Firefox (works both on desktop & mobile browsers!): [Download](https://github.com/swapagarwal/mediumship/blob/master/firefox/web-ext-artifacts/addon-2.5.xpi?raw=true), [Instructions](https://extensionworkshop.com/documentation/publish/distribute-sideloading/#install-addon-from-file)
+Mozilla Firefox (works both on desktop & mobile browsers!): [Download](https://github.com/swapagarwal/mediumship/blob/master/firefox/web-ext-artifacts/addon-2.6.xpi?raw=true), [Instructions](https://extensionworkshop.com/documentation/publish/distribute-sideloading/#install-addon-from-file)
 
 ## Usage
 
