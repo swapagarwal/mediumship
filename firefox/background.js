@@ -53,7 +53,7 @@ browser.webRequest.onBeforeSendHeaders.addListener(
       '*://theascent.pub/*',
       '*://ceoplaybook.io/*',
       '*://dayoneperspective.com/*',
-      '*://enad.co/*',
+      '*://eand.co/*',
       '*://extranewsfeed.com/*',
       '*://democracyguardian.com/*',
       '*://*.issuevoter.org/*',
