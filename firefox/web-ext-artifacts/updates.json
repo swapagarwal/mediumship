@@ -29,6 +29,10 @@
                 {
                     "version": "2.6",
                     "update_link": "https://raw.githubusercontent.com/swapagarwal/mediumship/master/firefox/web-ext-artifacts/addon-2.6.xpi"
+                },
+                {
+                    "version": "2.7",
+                    "update_link": "https://raw.githubusercontent.com/swapagarwal/mediumship/master/firefox/web-ext-artifacts/addon-2.7.xpi"
                 }
             ]
         }
