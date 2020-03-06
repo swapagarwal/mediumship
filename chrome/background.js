@@ -55,7 +55,6 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
       '*://substance.media/*',
       '*://thebolditalic.com/*',
       '*://thecreative.cafe/*',
-      '*://theascent.pub/*',
       '*://ceoplaybook.io/*',
       '*://dayoneperspective.com/*',
       '*://eand.co/*',
