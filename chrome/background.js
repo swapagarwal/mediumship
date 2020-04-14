@@ -61,6 +61,11 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
       '*://extranewsfeed.com/*',
       '*://democracyguardian.com/*',
       '*://*.issuevoter.org/*',
+      '*://architecht.io/*',
+      '*://influitive.io/*',
+      '*://dxfutures.co/*',
+      '*://blog.raise.com/*',
+      '*://spec.hamilton.edu/*',
     ]
   },
   [
