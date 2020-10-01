@@ -61,6 +61,17 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
       '*://extranewsfeed.com/*',
       '*://democracyguardian.com/*',
       '*://*.issuevoter.org/*',
+      '*://towardsdatascience.com/*',
+      '*://uxdesign.cc/*',
+      '*://uxplanet.org/*',
+      '*://writingcooperative.com/*',
+      '*://psiloveyou.xyz/*',
+      '*://byrslf.co/*',
+      '*://blog.prototypr.io/*',
+      '*://entrepreneurshandbook.co/*',
+      '*://artplusmarketing.com/*',
+      '*://extranewsfeed.com/*',
+      '*://festivalpeak.com/*', 
     ]
   },
   [
