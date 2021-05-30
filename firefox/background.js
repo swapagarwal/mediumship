@@ -60,6 +60,7 @@ browser.webRequest.onBeforeSendHeaders.addListener(
       '*://eand.co/*',
       '*://extranewsfeed.com/*',
       '*://democracyguardian.com/*',
+      '*://javascript.plainenglish.io/*',
       '*://*.issuevoter.org/*',
     ]
   },
