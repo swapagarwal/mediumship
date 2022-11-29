@@ -61,6 +61,8 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
       '*://extranewsfeed.com/*',
       '*://democracyguardian.com/*',
       '*://*.issuevoter.org/*',
+      '*://betterhumans.pub/*',
+      '*://500ish.com/*'
     ]
   },
   [
