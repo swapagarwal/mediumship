@@ -15,6 +15,7 @@
         "*://*/*"
     ],
     "permissions": [
+        "declarativeNetRequest",
         "webRequest"
     ]
 }
